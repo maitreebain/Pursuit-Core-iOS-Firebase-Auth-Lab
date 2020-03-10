@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		80EE3CE1240DBEA3009F72BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE3CE0240DBEA3009F72BC /* AppDelegate.swift */; };
 		80EE3CE3240DBEA3009F72BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE3CE2240DBEA3009F72BC /* SceneDelegate.swift */; };
-		80EE3CE5240DBEA3009F72BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE3CE4240DBEA3009F72BC /* ViewController.swift */; };
+		80EE3CE5240DBEA3009F72BC /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE3CE4240DBEA3009F72BC /* LogInViewController.swift */; };
 		80EE3CE8240DBEA4009F72BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80EE3CE6240DBEA4009F72BC /* Main.storyboard */; };
 		80EE3CEA240DBEA5009F72BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80EE3CE9240DBEA5009F72BC /* Assets.xcassets */; };
 		80EE3CED240DBEA5009F72BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80EE3CEB240DBEA5009F72BC /* LaunchScreen.storyboard */; };
@@ -30,7 +30,7 @@
 		80EE3CDD240DBEA3009F72BC /* Firebase-Auth-Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase-Auth-Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80EE3CE0240DBEA3009F72BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80EE3CE2240DBEA3009F72BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		80EE3CE4240DBEA3009F72BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80EE3CE4240DBEA3009F72BC /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		80EE3CE7240DBEA4009F72BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80EE3CE9240DBEA5009F72BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80EE3CEC240DBEA5009F72BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 			children = (
 				80EE3CE0240DBEA3009F72BC /* AppDelegate.swift */,
 				80EE3CE2240DBEA3009F72BC /* SceneDelegate.swift */,
-				80EE3CE4240DBEA3009F72BC /* ViewController.swift */,
+				80EE3CE4240DBEA3009F72BC /* LogInViewController.swift */,
 				80EE3CE6240DBEA4009F72BC /* Main.storyboard */,
 				80EE3CE9240DBEA5009F72BC /* Assets.xcassets */,
 				80EE3CEB240DBEA5009F72BC /* LaunchScreen.storyboard */,
@@ -200,7 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80EE3CE5240DBEA3009F72BC /* ViewController.swift in Sources */,
+				80EE3CE5240DBEA3009F72BC /* LogInViewController.swift in Sources */,
 				80EE3CE1240DBEA3009F72BC /* AppDelegate.swift in Sources */,
 				80EE3CE3240DBEA3009F72BC /* SceneDelegate.swift in Sources */,
 			);
