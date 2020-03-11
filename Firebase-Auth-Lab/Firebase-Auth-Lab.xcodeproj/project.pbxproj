@@ -13,6 +13,8 @@
 		803F3CE624194786004952D1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803F3CE524194786004952D1 /* ProfileViewController.swift */; };
 		803F3CE82419491E004952D1 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803F3CE72419491E004952D1 /* UIViewController+Navigation.swift */; };
 		803F3CEA241949DC004952D1 /* ProfileView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803F3CE9241949DC004952D1 /* ProfileView.storyboard */; };
+		803F3CEC241963E4004952D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803F3CEB241963E4004952D1 /* User.swift */; };
+		803F3CEE24196562004952D1 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803F3CED24196562004952D1 /* DatabaseService.swift */; };
 		80EE3CE1240DBEA3009F72BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE3CE0240DBEA3009F72BC /* AppDelegate.swift */; };
 		80EE3CE3240DBEA3009F72BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE3CE2240DBEA3009F72BC /* SceneDelegate.swift */; };
 		80EE3CE5240DBEA3009F72BC /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE3CE4240DBEA3009F72BC /* LogInViewController.swift */; };
@@ -44,6 +46,8 @@
 		803F3CE524194786004952D1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		803F3CE72419491E004952D1 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 		803F3CE9241949DC004952D1 /* ProfileView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileView.storyboard; sourceTree = "<group>"; };
+		803F3CEB241963E4004952D1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		803F3CED24196562004952D1 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
 		80EE3CDD240DBEA3009F72BC /* Firebase-Auth-Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase-Auth-Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80EE3CE0240DBEA3009F72BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80EE3CE2240DBEA3009F72BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,9 +118,11 @@
 			children = (
 				80EE3CE0240DBEA3009F72BC /* AppDelegate.swift */,
 				80EE3CE2240DBEA3009F72BC /* SceneDelegate.swift */,
+				803F3CEB241963E4004952D1 /* User.swift */,
+				803F3CED24196562004952D1 /* DatabaseService.swift */,
+				803F3CE1241942CB004952D1 /* AuthenticationSession.swift */,
 				80EE3CE4240DBEA3009F72BC /* LogInViewController.swift */,
 				803F3CE524194786004952D1 /* ProfileViewController.swift */,
-				803F3CE1241942CB004952D1 /* AuthenticationSession.swift */,
 				803F3CE32419445B004952D1 /* UIViewController+Alerts.swift */,
 				803F3CE72419491E004952D1 /* UIViewController+Navigation.swift */,
 				80EE3CE6240DBEA4009F72BC /* Main.storyboard */,
@@ -319,10 +325,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				803F3CEE24196562004952D1 /* DatabaseService.swift in Sources */,
 				803F3CE624194786004952D1 /* ProfileViewController.swift in Sources */,
 				803F3CE82419491E004952D1 /* UIViewController+Navigation.swift in Sources */,
 				80EE3CE5240DBEA3009F72BC /* LogInViewController.swift in Sources */,
 				80EE3CE1240DBEA3009F72BC /* AppDelegate.swift in Sources */,
+				803F3CEC241963E4004952D1 /* User.swift in Sources */,
 				803F3CE2241942CB004952D1 /* AuthenticationSession.swift in Sources */,
 				803F3CE42419445B004952D1 /* UIViewController+Alerts.swift in Sources */,
 				80EE3CE3240DBEA3009F72BC /* SceneDelegate.swift in Sources */,

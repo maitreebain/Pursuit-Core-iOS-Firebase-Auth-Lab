@@ -7,19 +7,27 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class ProfileViewController: UIViewController {
 
     @IBOutlet weak var profileImage: UIImageView!
     @IBOutlet weak var displayName: UITextField!
-    @IBOutlet weak var phoneLabel: UILabel!
-    @IBOutlet weak var addressLabel: UILabel!
+    @IBOutlet weak var phoneText: UITextField!
+    
+    @IBOutlet weak var addressText: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
     
-
+    private func updateUI() {
+        guard let user = Auth.auth().currentUser else {
+            return
+        }
+        
+        displayName.text = user.displayName
+    }
 
 }
