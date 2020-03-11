@@ -18,6 +18,10 @@ class LogInViewController: UIViewController {
     
     @IBOutlet weak var emailText: UITextField!
     @IBOutlet weak var passwordText: UITextField!
+    @IBOutlet weak var logInButton: UIButton!
+    @IBOutlet weak var miniView: UIView!
+    @IBOutlet weak var accountLabel: UILabel!
+    @IBOutlet weak var makeAccountButton: UIButton!
     
     private var accountState = AccountState.existingUser
     
@@ -72,6 +76,22 @@ class LogInViewController: UIViewController {
     }
     
     @IBAction func accountButtonPressed(_ sender: UIButton) {
+        
+        accountState = accountState == .existingUser ? .newUser : .existingUser
+        
+        if accountState == .existingUser{
+            UIView.transition(with: miniView, duration: 0.6, options: [.transitionCrossDissolve], animations: {
+                self.logInButton.setTitle("Log In", for: .normal)
+                self.accountLabel.text = "Don't have an account?"
+                self.makeAccountButton.setTitle("Sign Up", for: .normal)
+            }, completion: nil)
+        } else {
+            UIView.transition(with: miniView, duration: 0.6, options: [.transitionCrossDissolve], animations: {
+                self.logInButton.setTitle("Sign Up", for: .normal)
+                self.accountLabel.text = "Have an account?"
+                self.makeAccountButton.setTitle("Log In", for: .normal)
+            }, completion: nil)
+        }
         
     }
     

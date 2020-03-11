@@ -35,7 +35,7 @@
                                             <constraint firstAttribute="height" constant="44" id="c1T-Za-tdZ"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
-                                        <state key="normal" title="Login"/>
+                                        <state key="normal" title="Log In"/>
                                         <connections>
                                             <action selector="loginAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IaA-8E-Fas"/>
                                         </connections>
@@ -89,7 +89,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="accountLabel" destination="XDb-V2-1pA" id="UBB-W1-GhQ"/>
                         <outlet property="emailText" destination="Ynd-Y5-vvL" id="e6p-nA-RSv"/>
+                        <outlet property="logInButton" destination="0hR-ce-pGW" id="wmn-Gt-tk2"/>
+                        <outlet property="makeAccountButton" destination="NUH-RL-ACX" id="JRJ-dy-ctJ"/>
+                        <outlet property="miniView" destination="MK2-Lv-5ai" id="h1s-Mr-Emq"/>
                         <outlet property="passwordText" destination="ejs-k7-tgX" id="O3u-hK-vhC"/>
                     </connections>
                 </viewController>
